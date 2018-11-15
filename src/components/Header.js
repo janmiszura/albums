@@ -5,7 +5,7 @@ export default class Header extends Component {
   render() {
     return (
       <View style={styles.containerHeader}>
-        <Text style={styles.text}>Albums</Text>
+        <Text style={styles.text}>{this.props.titulo}</Text>
       </View>
     );
   }
